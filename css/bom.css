@@ -3,6 +3,16 @@
 	margin: 0;
 	padding: 0;
 }
+
+.delete{
+    float: right;
+    color: red;
+    height: 50px;
+    width: 50px;
+    font-size: 30px !important;
+
+
+}
 body {
 	height: 100vh;
 	display: flex;
@@ -49,8 +59,18 @@ label {
 }
 
 #list {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
 	margin: 0.2rem;
+    margin-top: auto;
+    margin-bottom: auto;
 }
+
+#list > div {
+    font-size: 20px ;
+}
+
 
 ul {
 	margin: 1rem;
@@ -58,7 +78,7 @@ ul {
 }
 
 li {
-	display: flex;
+	
 	align-items: center;
 	justify-content: space-between;
 	margin-bottom: 0.5rem;
