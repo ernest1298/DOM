@@ -42,6 +42,7 @@ label {
 	font-size: 0.9rem;
 }
 #listcontainer {
+    display: grid;
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	margin: 1rem;
 	padding: 1rem;
@@ -62,7 +63,9 @@ li {
 	justify-content: space-between;
 	margin-bottom: 0.5rem;
 }
-
+.delete {
+    font-size: 50px;
+}
 @media only screen and (min-width: 32.5em) {
 	h1 {
 		font-size: 2rem;
