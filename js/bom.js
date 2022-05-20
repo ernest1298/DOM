@@ -10,7 +10,7 @@ function bom() {
     console.log(arr)
 //   }
 
-document.getElementById("list").innerHTML = arr.join("\n")
+document.getElementById("list").innerHTML = arr.join("<br/>")
 
 
 
